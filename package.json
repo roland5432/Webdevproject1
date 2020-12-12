@@ -1,0 +1,38 @@
+{
+  "name": "webdevproject1",
+  "version": "1.0.0",
+  "description": "A first attempt at a full-stack modern looking website from a tutorial.",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roland5432/Webdevproject1.git"
+  },
+  "author": "Roland Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roland5432/Webdevproject1/issues"
+  },
+  "homepage": "https://github.com/roland5432/Webdevproject1#readme",
+  "devDependencies": {
+    "copyfiles": "^2.0.0",
+    "imagemin-cli": "^3.0.0",
+    "lite-server": "^2.3.0",
+    "node-sass": "4.13.1",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.1",
+    "rimraf": "^2.6.2",
+    "usemin-cli": "^0.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.12.9"
+  }
+}
